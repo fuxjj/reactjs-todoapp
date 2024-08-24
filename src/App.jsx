@@ -47,6 +47,7 @@ function App() {
   return (
     <main>
       <TodoInput todoValue={todoValue} setTodoValue={setTodoValue} handleAddTodo={handleAddTodo} />
+      <br />
       <TodoList todos={todos} handleDeleteTodo={handleDeleteTodo} handleEditTodo={handleEditTodo} />
     </main>
   )
